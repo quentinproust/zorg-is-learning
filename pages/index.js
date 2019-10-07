@@ -76,7 +76,7 @@ const NumberExercices = () => {
 const Home = () => (
   <div>
     <Head>
-      <title>Zorg Is Learning !</title>
+      <title>Zorg et les mathématiques !</title>
       <link rel='icon' href='/static/favicon.ico' />
       <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
     </Head>
@@ -85,7 +85,7 @@ const Home = () => (
       <Grid.Column style={{ maxWidth: 450 }}>
         <Header as='h2' color='violet' textAlign='center'>
           <Icon name="child" />
-          Zorg Is Learning !
+          Zorg et les mathématiques !
         </Header>
         <Container>
           <NumberExercices />
