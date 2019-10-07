@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import { Container, Grid, Header, Segment, List, Button, Input, Divider, SegmentGroup } from 'semantic-ui-react';
+import { Container, Grid, Header, Segment, List, Button, Input, Divider, SegmentGroup, Icon } from 'semantic-ui-react';
 
 
 const N = ({ value }) => {
@@ -81,9 +81,12 @@ const Home = () => (
       <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
     </Head>
 
-    <Grid style={{ height: '100vh' }} textAlign="center">
+    <Grid style={{ height: '100vh', paddingTop: 20 }} textAlign="center">
       <Grid.Column style={{ maxWidth: 450 }}>
-        <Header as='h2' color='violet' textAlign='center'>Zorg Is Learning !</Header>
+        <Header as='h2' color='violet' textAlign='center'>
+          <Icon name="child" />
+          Zorg Is Learning !
+        </Header>
         <Container>
           <NumberExercices />
         </Container>
